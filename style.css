@@ -37,6 +37,11 @@ header {
   justify-content: space-around;
   font-size: 20px;
 }
+
+.header__nav ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
 /* end header */
 
 /* main index*/
@@ -101,6 +106,10 @@ footer img {
 .characters__container {
   background-color: #8d8daa;
   display: flex;
+}
+
+.characters__containerinfo:hover {
+  zoom: 150%;
 }
 
 .characters__containerinfo img {
